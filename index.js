@@ -13,7 +13,7 @@ app.use(express.json());
 dotenv.config();
 app.use(cors())
 const Port=process.env.PORT 
-const MongoURL=process.env.MONGO_URL
+const MongoURL=process.env.Mongo_Url
 
 app.get("/",(req,res)=>{
     res.send("hello")
